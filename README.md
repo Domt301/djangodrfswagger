@@ -18,9 +18,12 @@ This is a Django Rest Framework (DRF) project named `drf_api` designed to manage
 
 3. **Run migrations**:
 This initializes the database schema for the Notes app.
+docker-compose run web python manage.py makemigrations 
+docker-compose run web python manage.py migrate
 
 
 4. **Start the project**:
+docker-compose up
 
 
 5. Access the project in your browser:
